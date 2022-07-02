@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.contenedor_main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 600px;
+  background: #f2f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 4rem;
+}
+#contador_main {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.selected{
+  color: red;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgb(255, 255, 255);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #050505;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(121, 120, 120);
+  cursor: pointer;
+}

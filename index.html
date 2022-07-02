@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="contenedor_main">
+        <div id="titulo">
+            <h1>Contador</h1>
+        </div>
+        <div id="contador_main">
+            <h3 class="nums selected">0</h3>
+        </div>
+
+        <div class="btn_container">
+            <div>
+                <button onclick="incrementar()" class="btn">Incrementar</button>
+            </div>
+            <div>
+                <button onclick="decrementar()" class="btn">Decrementar</button>
+            </div>
+            <div>
+                <button onclick="reiniciar()" class="btn">Reiniciar</button>
+            </div>
+            <div>
+                <button onclick="agregarContador()" class="btn">Agregar contador</button>
+            </div>
+            <div>
+                <button onclick="quitarContador()" class="btn">Quitar contador</button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
